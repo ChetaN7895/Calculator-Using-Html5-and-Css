@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.heading {
+    display: flex;
+    font-size: 1.3rem;
+    color: rgb(129, 136, 137);
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /*background: radial-gradient(circle at 33% 100%, #e0d4ba 4%, #bfbfbc 30%, #dcd1da 62%, #c5cecf 85%, #c3d5dc);*/
+    background-image: url(https://img.freepik.com/free-vector/abstract-wave-line-background-vector-illustration_460848-11943.jpg?w=996&t=st=1680951368~exp=1680951968~hmac=ef7346d4a113b5863b25ebafeb0a581846ac9002f0aa8272d42ac0c9d5db1ae2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    padding: 40px;
+    box-shadow: -65px -45px 20px rgba(21, 22, 22, 0.05), 25px 30px 30px rgba(125, 126, 126, 0.5), inset 20px 20px 20px rgba(50, 49, 49, 0.06), inset -20px -20px 25px rgba(148, 146, 147, 0.9);
+    background: rgb(225, 221, 217);
+    border-radius: 30px;
+}
+
+form .display input:valid {
+    border: 1px solid #01a497;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 65px;
+    font-weight: 500;
+    height: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.35), inset -5px -5px 15px rgba(1, 67, 77, 0.1), inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+    background: rgb(217, 225, 225);
+    cursor: pointer;
+    color: rgba(1, 129, 129, 0.705);
+    font-size: 1.3em;
+    margin: 12px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: -8px -8px 8px rgba(252, 251, 251, 0.1), ;
+}
+
+form input.button {
+    color: rgb(109, 106, 106);
+    background: rgb(217, 225, 225);
+}
+
+form input.buttons {
+    color: #b69400;
+    border: 1px solid #c3aa05;
+}
