@@ -7,4 +7,5 @@ This repository contains  the source code of  making of Calculator using HTML, C
 
 
 Output Of Project Look like ⏬↙️
-![Screenshot_20240630-190406](https://github.com/ChetaN7895/Calculator-Using-Html5-and-Css/assets/151900157/18e32fef-251a-48c9-aec2-8fb9333de42f)
+
+![Screenshot_20240630-191845](https://github.com/ChetaN7895/Calculator-Using-Html5-and-Css/assets/151900157/15e9f1f5-77e8-4083-b07c-b0b6f83f022e)
